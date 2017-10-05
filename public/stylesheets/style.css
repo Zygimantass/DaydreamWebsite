@@ -25,15 +25,16 @@ div.background {
 div.statusbar {
   position: relative;
   left: 0;
-  margin-top: 38%;
+  margin-top: 30%;
   margin-left: 4%;
   right: 0;
   z-index: 9999;
   float: left;
+  width: 75%;
 }
 div.statusbar > div {
   color: #fefefe;
   height: 1px;
-  width: 1000px;
-  font: 50px CodeBold, Helvetica, Arial, sans-serif;
+  width: 100%;
+  font: 40pt CodeBold, Helvetica, Arial, sans-serif;
 }

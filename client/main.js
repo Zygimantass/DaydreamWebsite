@@ -3,7 +3,7 @@ var $ = require("jquery")
 
 console.log("asd")
 
-const temperatureAPI = "http://localhost:3001/roomTemperature"
+const temperatureAPI = "http://192.168.1.25:3001/roomTemperature"
 
 var clock = function() {
   var today = new Date();
