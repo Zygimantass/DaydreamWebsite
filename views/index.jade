@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.background
+  div.statusbar
+    div.date
+      p.dateText
+    div
+    div.clock
+      p.clockText
+    div.homeTemperature
+      p.homeTempText
+  script(src="/js/app.js" type="text/javascript")
+  
